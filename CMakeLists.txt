@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( detect_red )
+set (OpenCV_DIR /home/mady/Documents/opencv-2.4.11/release)
+find_package( OpenCV REQUIRED )
+add_executable( detect_red detect_red.cpp )
+target_link_libraries( detect_red ${OpenCV_LIBS} )

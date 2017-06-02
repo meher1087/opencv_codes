@@ -1,0 +1,1 @@
+/home/mady/Documents/opencv_codes/detect_red/CMakeFiles/detect_red.dir
